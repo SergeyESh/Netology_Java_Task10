@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class PosterManagerTest {
+public class PosterManagerWithoutLimitTest {
     PosterManeger post = new PosterManeger();
 
     String film1 = new String("1");
