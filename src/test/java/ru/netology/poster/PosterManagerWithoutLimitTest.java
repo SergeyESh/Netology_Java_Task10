@@ -7,17 +7,17 @@ import org.junit.jupiter.api.Test;
 public class PosterManagerWithoutLimitTest {
     PosterManeger post = new PosterManeger();
 
-    String film1 = new String("1");
-    String film2 = new String("2");
-    String film3 = new String("3");
-    String film4 = new String("4");
-    String film5 = new String("5");
-    String film6 = new String("6");
-    String film7 = new String("7");
-    String film8 = new String("8");
-    String film9 = new String("9");
-    String film10 = new String("10");
-    String film11 = new String("11");
+    String film1 = "1";
+    String film2 = "2";
+    String film3 = "3";
+    String film4 = "4";
+    String film5 = "5";
+    String film6 = "6";
+    String film7 = "7";
+    String film8 = "8";
+    String film9 = "9";
+    String film10 = "10";
+    String film11 = "11";
 
     @BeforeEach
     public void setup() {

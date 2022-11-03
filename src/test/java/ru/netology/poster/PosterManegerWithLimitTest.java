@@ -1,21 +1,18 @@
 package ru.netology.poster;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class PosterManegerWithLimitTest {
 
     PosterManeger post = new PosterManeger(5);
 
-    String film1 = new String("1");
-    String film2 = new String("2");
-    String film3 = new String("3");
-    String film4 = new String("4");
-    String film5 = new String("5");
-    String film6 = new String("6");
+    String film1 = "1";
+    String film2 = "2";
+    String film3 = "3";
+    String film4 = "4";
+    String film5 = "5";
+    String film6 = "6";
 
     @Test
     public void shouldFindLastFilmsMoreLimit() {
